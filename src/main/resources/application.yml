@@ -1,0 +1,14 @@
+server:
+  port: 3344
+
+
+jsr:
+  coding:
+    data-shards: 6
+    parity-shards: 3
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10000MB
+      enabled: true
+      max-request-size: 10000MB
